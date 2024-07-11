@@ -1,0 +1,48 @@
+     VMA      LMA     Size Align Out     In      Symbol
+       0        0 20010000     1 . = 0x20010000
+20010000 20010000        8     4 .vector_table
+20010000 20010000        4     1         LONG ( ORIGIN ( RAM ) + LENGTH ( RAM ) )
+20010004 20010004        4     4         /Users/foodstreet/klimatt_git/custom-riscv-playground/target/riscv32imac-unknown-none-elf/release/deps/custom_riscv_playground-6f0f79196d05e015.custom_riscv_playground.ee2182b7ffadd939-cgu.0.rcgu.o:(.vector_table.reset_vector)
+20010004 20010004        0     1                 $d.1
+20010004 20010004        4     1                 RESET_VECTOR
+20010008 20010008        2     2 .text
+20010008 20010008        2     2         /Users/foodstreet/klimatt_git/custom-riscv-playground/target/riscv32imac-unknown-none-elf/release/deps/custom_riscv_playground-6f0f79196d05e015.custom_riscv_playground.ee2182b7ffadd939-cgu.0.rcgu.o:(.text.Reset)
+20010008 20010008        0     1                 
+20010008 20010008        0     1                 
+20010008 20010008        0     1                 $x.0
+20010008 20010008        0     1                 
+20010008 20010008        2     1                 Reset
+2001000a 2001000a        0     1                 
+2001000a 2001000a        0     1                 
+2001000a 2001000a        0     1                 
+2001000a 2001000a        0     1                 
+       0        0       93     1 .debug_abbrev
+       0        0       93     1         /Users/foodstreet/klimatt_git/custom-riscv-playground/target/riscv32imac-unknown-none-elf/release/deps/custom_riscv_playground-6f0f79196d05e015.custom_riscv_playground.ee2182b7ffadd939-cgu.0.rcgu.o:(.debug_abbrev)
+       0        0        0     1                 $d.2
+       0        0       c4     1 .debug_info
+       0        0       c4     1         /Users/foodstreet/klimatt_git/custom-riscv-playground/target/riscv32imac-unknown-none-elf/release/deps/custom_riscv_playground-6f0f79196d05e015.custom_riscv_playground.ee2182b7ffadd939-cgu.0.rcgu.o:(.debug_info)
+       0        0        0     1                 
+       0        0        0     1                 $d.3
+       0        0       28     1 .debug_aranges
+       0        0       28     1         /Users/foodstreet/klimatt_git/custom-riscv-playground/target/riscv32imac-unknown-none-elf/release/deps/custom_riscv_playground-6f0f79196d05e015.custom_riscv_playground.ee2182b7ffadd939-cgu.0.rcgu.o:(.debug_aranges)
+       0        0        0     1                 $d.4
+       0        0      12f     1 .debug_str
+       0        0      12f     1         <internal>:(.debug_str)
+       0        0       40     1 .comment
+       0        0       40     1         <internal>:(.comment)
+       0        0       2b     1 .riscv.attributes
+       0        0       2b     1         <internal>:(.riscv.attributes)
+       0        0       24     4 .debug_frame
+       0        0       24     4         /Users/foodstreet/klimatt_git/custom-riscv-playground/target/riscv32imac-unknown-none-elf/release/deps/custom_riscv_playground-6f0f79196d05e015.custom_riscv_playground.ee2182b7ffadd939-cgu.0.rcgu.o:(.debug_frame)
+       0        0        0     1                 
+       0        0        0     1                 $d.10
+       0        0       40     1 .debug_line
+       0        0       40     1         /Users/foodstreet/klimatt_git/custom-riscv-playground/target/riscv32imac-unknown-none-elf/release/deps/custom_riscv_playground-6f0f79196d05e015.custom_riscv_playground.ee2182b7ffadd939-cgu.0.rcgu.o:(.debug_line)
+       0        0        0     1                 .Lline_table_start0
+       0        0        0     1                 $d.11
+       0        0      2d0     4 .symtab
+       0        0      2d0     4         <internal>:(.symtab)
+       0        0       97     1 .shstrtab
+       0        0       97     1         <internal>:(.shstrtab)
+       0        0       95     1 .strtab
+       0        0       95     1         <internal>:(.strtab)

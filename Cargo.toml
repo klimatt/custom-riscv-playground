@@ -1,0 +1,24 @@
+[package]
+name = "custom-riscv-playground"
+version = "0.0.0"
+authors = ["klimatt <klimatt.gu@gmail.com>"]
+edition = "2018"
+license = "ISC"
+readme = "README.md"
+rust-version = "1.59"
+#build = "build.rs"
+
+[dependencies]
+panic-halt = "0.2.0"
+riscv = "0.10.0"
+
+# this lets you use `cargo fix`!
+[[bin]]
+name = "custom-riscv-playground"
+test = false
+bench = false
+
+[profile.release]
+codegen-units = 1 # better optimizations
+debug = true      # symbols are nice and they don't increase the size on Flash
+lto = true        # better optimizations

@@ -1,0 +1,13 @@
+[target.riscv32imac-unknown-none-elf]
+linker = "rust-lld"
+rustflags = [
+    "-C",
+    "link-arg=-Tlink.x",            # Linker script
+    "-C",
+    "link-arg=-Map=map/output.map", # Map file
+    #"-C",
+    #"link-arg=-obin/out.bin",       # Bin file
+]
+
+[build]
+target = "riscv32imac-unknown-none-elf"
