@@ -2,7 +2,7 @@
 name = "custom-riscv-playground"
 version = "0.0.0"
 authors = ["klimatt <klimatt.gu@gmail.com>"]
-edition = "2018"
+edition = "2021"
 license = "ISC"
 readme = "README.md"
 rust-version = "1.59"
